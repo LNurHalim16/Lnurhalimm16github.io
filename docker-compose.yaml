@@ -1,0 +1,9 @@
+version: '1'
+services: 
+  website: 
+    image: halim-steril:latest
+    container_name: halim-steril
+  
+    ports:
+    - "8000:80"
+
